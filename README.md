@@ -24,15 +24,22 @@ required, just a `python3` or `python` on your PATH.
 
 ```bash
 # from a local checkout, while developing/testing
-claude --plugin-dir ./myjobmatch-analyze
+claude --plugin-dir ./myjobmatch-analyzer
 ```
 
-Once published to a marketplace, install normally via `/plugin install`.
+From this repo directly:
+
+```
+/plugin marketplace add powellbj/myjobmatch-analyzer
+/plugin install myjobmatch-analyzer
+```
+
+or, in the desktop app, Settings → Plugins → Add, and point it at this repo.
 
 ## Use
 
 ```
-/myjobmatch-analyze:analyze
+/myjobmatch-analyzer:analyze
 ```
 
 or just ask in conversation - e.g. "does my resume match this job posting?"
