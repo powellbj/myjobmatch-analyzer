@@ -1,0 +1,9 @@
+{
+  "name": "myjobmatch-analyzer",
+  "displayName": "MyJobMatch Analyzer",
+  "description": "Score how well a Resume matches a Job Description - strengths, gaps, and a couple of interview talking points, right in your terminal.",
+  "version": "0.2.0",
+  "author": { "name": "Brian Powell" },
+  "homepage": "https://myjobmatch.ai/",
+  "license": "MIT"
+}
