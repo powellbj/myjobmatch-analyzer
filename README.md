@@ -1,2 +1,2 @@
-# jobmatch-analyzer
-JobMatch Analyzer Plugin for Claude
+# myjobmatch-analyzer
+MyJobMatch Analyzer Plugin for Claude
